@@ -5,6 +5,10 @@ layout: default
 # inicio
 Esto es un intento de organizar con texto plano las notas sobre el mundo [(mi mundo)](miMundo.html)
 
+## nivel 2
+lorem   
+
+### nivel 3
 * Principios 
     - Siempre tienen preferencia mis notas personales (por eso es mi mundo!)
     - todos los archivos en el mismo directorio.
