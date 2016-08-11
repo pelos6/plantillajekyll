@@ -5,7 +5,7 @@ title: home
 
 | nombre corto   | descripción        |   enlace           |  
 | ---------------| ------------------ | -------------------|  
-| plantillas  |   plantillas utiles    | [plantillas](plantillas.md)|  
+| plantillas  |   plantillas utiles    | [plantillas](plantillas.html)|  
 | programacion   | programas a usar y chuletas | [programación](programacion.html)|  
 
 
