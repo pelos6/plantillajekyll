@@ -11,8 +11,11 @@ title: chuleta markdown
 - [listas de tareas](#listas-de-tareas)
 - [cabeceras](#cabeceras)
 - [simulando un H1  para cabeceras grandes](#simulando-un-h1--para-cabeceras-grandes)
-    - [simulando un H6  para cabeceras pequeñas](#simulando-un-h6--para-cabeceras-pequeñas)
+        - [simulando un H6  para cabeceras pequeñas](#simulando-un-h6--para-cabeceras-pequeñas)
 - [enlaces](#enlaces)
+- [codigo](#codigo)
+- [Identificadores de Cabecera](#identificadores-de-cabecera)
+    - [Esto es una cabecera con un Id](#cabecera1)
 - [listas](#listas)
 - [imagenes](#imagenes)
 - [tablas](#tablas)
@@ -69,6 +72,22 @@ a una url
 ```
 
 [chuleta de Markdown](http://joedicastro.com/pages/markdown.html)
+
+# codigo
+pero no parece funcionar
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+# Identificadores de Cabecera
+Los identificadores de cabecera nos permiten establecer un Identificador a las cabeceras para luego poder enlazarlas en cualquier otro lugar del texto. Es lo que empleo para crear el índice de esta página. Funcionaría como un anchor HTML (ancla) pero que solo se puede aplicar en las cabeceras.  
+
+### Esto es una cabecera con un Id {#cabecera1}
+
+[Enlace a esa cabecera](#cabecera1)
 
 # listas
 ```
@@ -134,3 +153,4 @@ Dos puntos a la izquierda de la línea de separación hará que la columna esté
 
 
 
+[Enlace a esa cabecera](#cabecera1)
