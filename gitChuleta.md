@@ -24,10 +24,10 @@ git commit -m "mensaje del commit"
 git push -u origin master
 ```
 
-- git add -A
+* git add -A 
 en git 1.x almacena todos los archivos ya sean nuevos, modificados o borrados
 en git 2.x tambien
-- git add .
+- git add . 
 en git 1.x almacena todos los archivos ya sean nuevos o modificados no los borrados
 en git 2.x almacena también los borrados
 - git push -u 

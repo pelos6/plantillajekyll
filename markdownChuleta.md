@@ -2,9 +2,10 @@
 layout: default
 title: chuleta markdown
 ---
-
+[inicio](index.html)  / [programacion](programacion.html) / [markdwon](markdown.html) / markdown Chuleta 
 <!-- MarkdownTOC -->
 
+- [parrafos y saltos de linea](#parrafos-y-saltos-de-linea)
 - [texto no interpretado](#texto-no-interpretado)
 - [cabeceras](#cabeceras)
 - [simulando un H1  para cabeceras grandes](#simulando-un-h1--para-cabeceras-grandes)
@@ -17,6 +18,14 @@ title: chuleta markdown
 - [enlaces de interes](#enlaces-de-interes)
 
 <!-- /MarkdownTOC -->
+
+# parrafos y saltos de linea
+Para crear párrafos se deja una línea en blanco.
+
+Para crear un salto de línea dentro de un párrafo,   
+ademas del salgo es necesario poner dos  
+espacios al final de la última palabra de esa línea
+
 
 # texto no interpretado
 
@@ -62,6 +71,7 @@ Lista numerada (ordenada)
 Lista de puntos (desordenada)
 
 * Un elemento de la lista
+y su texto
 * Otro elemento de la lista
 * El tercer elemento de la lista
 ```
@@ -71,7 +81,8 @@ Lista de puntos (desordenada)
 2. Este es el segundo elemento
 3. Este es el tercer elemento
 
-* Un elemento de la lista
+* Un elemento de la lista  
+y su texto
 * Otro elemento de la lista
 * El tercer elemento de la lista
 
