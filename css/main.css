@@ -2,17 +2,4 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-a {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p, th , td, li {
-    font-size: 1.5em;
-    line-height: 1.4em;
-}
+
