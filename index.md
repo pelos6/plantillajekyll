@@ -2,11 +2,13 @@
 layout: default
 title: home
 --- 
+[inicio](index.html) 
 
 | nombre corto   | descripción        |   enlace           |  
 | ---------------| ------------------ | -------------------|  
+| programacion   | programas a usar y chuletas | [programación](programacion.html)| 
 | plantillas  |   plantillas utiles    | [plantillas](plantillas.html)|  
-| programacion   | programas a usar y chuletas | [programación](programacion.html)|  
+ 
 
 
 * Enlaces

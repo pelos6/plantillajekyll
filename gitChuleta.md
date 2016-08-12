@@ -7,6 +7,9 @@ title: git chuleta
 
 - [secuencia habitual](#secuencia-habitual)
 - [Deshacer unos cambios](#deshacer-unos-cambios)
+- [repositorios remotos](#repositorios-remotos)
+- [configuración](#configuración)
+- [problemas con varios usuarios](#problemas-con-varios-usuarios)
 - [Actualizar la copia local con el repositorio remoto](#actualizar-la-copia-local-con-el-repositorio-remoto)
 - [git](#git)
 - [Enlaces útiles](#enlaces-útiles)
@@ -14,6 +17,7 @@ title: git chuleta
 <!-- /MarkdownTOC -->
 
 # secuencia habitual
+
 ```
 git add -A
 git commit -m "mensaje del commit"
@@ -38,8 +42,10 @@ Please, commit your changes or stash them before you can merge.
 
 # repositorios remotos
 para ver la url 
-git remote -v 
 
+```
+git remote -v 
+```
 
 # configuración
 git config --list

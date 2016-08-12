@@ -4,8 +4,6 @@ title: plantillas
 ---
 [inicio](index.html)
 
-# Plantillas
-
 | nombre corto   | descripción        |   enlace           |  
 | ---------------| ------------------ | -------------------|  
 | simple         |                    | [plantilla simple](plantillaSimple.html)|  
