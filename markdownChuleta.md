@@ -7,6 +7,8 @@ title: chuleta markdown
 
 - [parrafos y saltos de linea](#parrafos-y-saltos-de-linea)
 - [texto no interpretado](#texto-no-interpretado)
+- [escapar caracteres especiales con \](#escapar-caracteres-especiales-con-\)
+- [listas de tareas](#listas-de-tareas)
 - [cabeceras](#cabeceras)
 - [simulando un H1  para cabeceras grandes](#simulando-un-h1--para-cabeceras-grandes)
     - [simulando un H6  para cabeceras pequeñas](#simulando-un-h6--para-cabeceras-pequeñas)
@@ -23,17 +25,25 @@ title: chuleta markdown
 Para crear párrafos se deja una línea en blanco.
 
 Para crear un salto de línea dentro de un párrafo,   
-ademas del salgo es necesario poner dos  
+ademas del salto es necesario poner dos  
 espacios al final de la última palabra de esa línea
 
 
 # texto no interpretado
 
-con acentos invertidos. 
+con acentos invertidos.  
+\```
 
 ``` 
 para texto que no se interpreta 
 ```
+
+# escapar caracteres especiales con \
+
+# listas de tareas
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
 
 # cabeceras
 
