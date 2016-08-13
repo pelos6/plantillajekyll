@@ -1,13 +1,14 @@
 ---
 layout: default
+title: markdown cheatseet
 ---
-Sample Markdown Cheat Sheet
-=========================== 
+[inicio](index.html)  / [programacion](programacion.html) / [markdwon](markdown.html) /{{ page.title }}
+
 <!-- MarkdownTOC -->
 
-    - [Text basics](#text-basics)
-    - [Indentation](#indentation)
-    - [Titles](#titles)
+- [Text basics](#text-basics)
+- [Indentation](#indentation)
+- [Titles](#titles)
 - [Big title \(h1\)](#big-title-h1)
     - [Middle title \(h2\)](#middle-title-h2)
         - [Smaller title \(h3\)](#smaller-title-h3)
@@ -34,11 +35,11 @@ Sample Markdown Cheat Sheet
 
 <!-- /MarkdownTOC -->
 
-This is a sample markdown file to help you write Markdown quickly :)
+This is a sample markdown file to help you write Markdown quickly  
 
 If you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Palette with `CMD+⇧+P` then choose `Markdown Preview in browser` to see the result in your browser.
 
-## Text basics
+# Text basics
 this is *italic* and this is **bold** .  another _italic_ and another __bold__
 
 this is `important` text. and percentage signs : % and `%`
@@ -47,11 +48,11 @@ This is a paragraph with a footnote (builtin parser only). [^note-id]
 
 Insert `[ TOC ]` without spaces to generate a table of contents (builtin parsers only).
 
-## Indentation
+# Indentation
 > Here is some indented text
 >> even more indented
 
-## Titles
+# Titles
 # Big title (h1)
 ## Middle title (h2)
 ### Smaller title (h3)

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: chuleta markdown
+title: markdown Chuleta 
 ---
-[inicio](index.html)  / [programacion](programacion.html) / [markdwon](markdown.html) / markdown Chuleta 
+[inicio](index.html)  / [programacion](programacion.html) / [markdwon](markdown.html) /  {{ page.title }}
 <!-- MarkdownTOC -->
 
 - [parrafos y saltos de linea](#parrafos-y-saltos-de-linea)
@@ -75,15 +75,9 @@ a una url
 # codigo
 - con tres acentos invertidos \```  al principio y al final
 - dejando una línea y luego dos tabulaciones que funciona mejor con listas
+    + depende la profundidad de la lista en la que esta requiere más o menos profundidad de tabulación. Dos tabluaciones más que en donde se quiere mostrar.
+- para una sola `palabra` dentro de un texto \` antes de la palabra y despues
 
-- mas elaborado  
-    + pero no parece funcionar
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
 
 # Identificadores de Cabecera
 Los identificadores de cabecera nos permiten establecer un Identificador a las cabeceras para luego poder enlazarlas en cualquier otro lugar del texto. Es lo que empleo para crear el índice de esta página. Funcionaría como un anchor HTML (ancla) pero que solo se puede aplicar en las cabeceras.  

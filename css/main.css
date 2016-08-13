@@ -1,31 +1,38 @@
+/*el body centrado y con el tamaño de letra a 20 px*/
 body {
     margin: 60px auto;
     width: 70%;
   font-size: 20px;
 }
-
+/*los enlaces sin decoración y de distinto calor mas gris*/
 a {
     text-decoration: none;
    color: #A9A9A9;
 }
+/* subrayado al pasar el ratón*/
 a:hover {
     text-decoration: underline;
 }
+/* la tabla con linea*/
 table, th, td {
     border-color: black;
     border: 1px solid #A9A9A9;
     border-collapse: collapse;
 }
+/* primer nivel un poco mayor */
 h1 {
     font-size: 30px;
 }
+/* segundo nivel menor ...*/
 h2 {
     font-size: 25px;
 }
+/* flotar a la derecha*/
 .flota_derecha
 {
     float: right;
 }
+/* para la flecha que sube al titulo*/
 .flecha_arriba
 {
     color: black;

@@ -1,7 +1,10 @@
 ---
 layout: default
+title: Markdown Editing chuleta
 ---
-# MarkdownEditing
+[inicio](index.html)  / [programacion](programacion.html) / [markdwon](markdown.html) /  {{ page.title }}
+
+Chuleta para uso avanzado
 
 deshabilito el paquete previo de sublime según instrucciones.
 ```

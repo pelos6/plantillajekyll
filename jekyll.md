@@ -2,7 +2,7 @@
 layout: default
 title: jekyll
 ---
-[inicio](index.html) / [programacion](programacion.html) /jekyll 
+[inicio](index.html) / [programacion](programacion.html) /  {{ page.title }}
 <!-- MarkdownTOC -->
 
 - [Proposito](#proposito)
@@ -11,9 +11,9 @@ title: jekyll
 - [instalar ruby](#instalar-ruby)
 - [instalar Jekyll](#instalar-jekyll)
 - [usar jekyll](#usar-jekyll)
+- [inicio rápido](#inicio-rápido)
 - [prueba rápida](#prueba-rápida)
-    - [````](#)
-    - [````](#-1)
+- [otro inteno con jekyl nueva](#otro-inteno-con-jekyl-nueva)
 
 <!-- /MarkdownTOC -->
 
@@ -26,20 +26,22 @@ title: jekyll
 
 # instalar chocolatey  
 - desde una consola con privilegios de administrador
-- Install Chocolatey  
-````
+- para instalar Chocolatey  
+```
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
-````
-````
-Ensuring chocolatey commands are on the path
-Ensuring chocolatey.nupkg is in the lib folder
-````
+```
+
+```
+    Ensuring chocolatey commands are on the path
+    Ensuing chocolatey.nupkg is in the lib folder
+```
 - para que chocolatey funcione es necesario reabrir la consola 
-- para ver que versión se ha instalado se teclea simplemente  
-````
-choco
-Chocolatey v0.9.10.3
-````  
+- para ver que versión se ha instalado se teclea simplemente 
+ 
+```
+    choco
+    Chocolatey v0.9.10.3
+```  
 
 # instalar ruby
 ````
@@ -85,6 +87,10 @@ http://127.0.0.1:4000/
 ```
 - y veo la web generada
 
+# inicio rápido
+1. hacer un fork del repositorio https://github.com/javieriranzo3/plantillajekyll  
+2. luego lo clono en el directorio que quieras y ya se puede modificar
+
 # prueba rápida
 1. creo el repositorio vacio pruebajekyll  
 2. lo clono en 
@@ -102,14 +108,15 @@ C:\nube\MEGA\programacion\HtmlCssEstatico\jekyll\
         cd pruebajekyll     
         jekyll serve --watch  
 
-4. cambio en _config.yml  
+4. cambio en  `_config.yml`  
 
         name: javier iranzo
         markdown: redcarpet
         pygments: true
         baseurl: /christmas-recipes
 
-5. pero da problemas con redcarpet y con pygments que no son esenciales para lo que quiero así que lo quito
+5. el problema viene porque jekyll usa unos includes que gitHub pages aún no sieve por eso incluso la plantilla mínima da problemas  
+6. con redcarpet y con pygments que no son esenciales para lo que quiero así que lo quito
 
         http://127.0.0.1:4000/pruebajekyll/
 
@@ -117,60 +124,46 @@ C:\nube\MEGA\programacion\HtmlCssEstatico\jekyll\
 
 7. lo subo a git pero da un error que manda un correo a mi cuenta.
     - sobre about.md. sobre unos include que no puede resolver
-    - luego otro en main.css con un include que comento a import minima
+    - luego otro en main.css con un include que comento con un `import minima`
 
         https://pelos6.github.io/pruebajekyll/
-ya lo veo pero sin los css 
-los archivos md tienen que tener esto al principio
-````
----
-title: Inicio
-permalink: /inicio/
----
-````
-nada mas ponerlo con el serve en marcha se genera un directorio inicio donde esta el archivo convertido a html
+    - ya lo veo pero sin los css 
+    - los archivos md tienen que tener un encabezado especial al inicio para que se conviertan a html  
 
-otro intento con
-jekyllbase 
-al desplegar da un problema que se manda a mi email
-añado el directorio _include y dentro el archivo que da problemas 
+            ---  
+            title: Inicio  
+            permalink: /inicio/  
+            ---
 
-algo no sale bien ... hasta ahora el que mejor es el directorio prueba
+    - nada mas ponerlo con el serve en marcha se genera un directorio inicio donde esta el archivo convertido a html
 
-otro intento
-creo jekyll new prueba
-luego cd prueba y 
-git init
-creo el repositorio 
-git remote add origin https://github.com/pelos6/nueva.git
-git checkout --orphan gh-pages
-
-otro inteno con jekyl nueva
-lo que pasa es que no resuelve minima
-sigo este post 
-http://stackoverflow.com/questions/38772179/jekyll-work-in-local-but-not-work-github-file-to-import-not-found-or-unreadable
-c:\nube\MEGA\programacion\HtmlCssEstatico\jekyll\nueva>bundle show minima
+# otro inteno con jekyl nueva
+- lo que pasa es que no resuelve minima
+- sigo este post 
+http://stackoverflow.com/questions/38772179/jekyll-work-in-local-but-not-work-github-file-to-import-not-found-or-unreadable  
+c:\nube\MEGA\programacion\HtmlCssEstatico\jekyll\nueva>bundle show minima  
 C:/tools/ruby23/lib/ruby/gems/2.3.0/gems/minima-1.0.1
 
-sigo las instrucciones 
-se genera bien pero falta main.css pues el que esta es main.scss
-lo copio del directorio _site pues en local funciona.
-pero no recupera el css nuevo
-puede ser un problema de directorios 
-modifico en _config.yml
-baseurl: "/nueva"
-era eso
-pruebo a editar about.md desde el editor de git hub y en un minuto lo veo reflejado
-.- nota esto obligará a hacer un git pull para sincronicar esos cambios
+- se genera bien pero falta main.css pues el que esta es main.scss
+- lo copio del directorio _site pues en local funciona.
+- pero no recupera el css nuevo
+- puede ser un problema de directorios 
+- modifico en `_config.yml`
 
-los archivos *.md que pongo en el directorio 
+        baseurl: "/nueva"
+
+- era eso
+pruebo a editar about.md desde el editor de git hub y en un minuto lo veo reflejado
+- nota esto obligará a hacer un git pull para sincronicar esos cambios
+
+- los archivos *.md que pongo en el directorio 
 C:\nube\MEGA\programacion\HtmlCssEstatico\jekyll\nueva
-luego los abro y añado
-````
----
-layout: default
-title: programación
----
-```` 
-jekyll genera el correspondiente html con la plantilla default y pone en el menu la opción programación
+- luego los abro y añado  
+
+        ---
+        layout: default
+        title: programación
+        ---
+
+- jekyll genera el correspondiente html con la plantilla default y pone en el menu la opción programación
 

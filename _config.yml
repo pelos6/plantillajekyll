@@ -13,6 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+autor: javier
+ano: 2016
 title: titulo de la plantilla
 email: javieriranzo3@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -23,7 +25,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # intento de solucionar el problema con las rutas relativas ... para el css ..
 # buscar una solución mejor ... en projectos de repositorio ....
 # url: "https://javieriranzo3.github.io/plantillajekyll" # the base hostname & protocol for your site
+# para desarrollo en local
 url: ""
+
 github_username:  javieriranzo3
 
 # Build settings
