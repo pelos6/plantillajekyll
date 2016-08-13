@@ -48,7 +48,8 @@ pero no funciona ...
 
 # cabeceras
 
-pueden simular los tags h de html
+- pueden simular los tags h de html
+- dejar una linea en blanco despues
 
 # simulando un H1  para cabeceras grandes 
 
@@ -72,7 +73,11 @@ a una url
 [chuleta de Markdown](http://joedicastro.com/pages/markdown.html)
 
 # codigo
-pero no parece funcionar
+- con tres acentos invertidos \```  al principio y al final
+- dejando una línea y luego dos tabulaciones que funciona mejor con listas
+
+- mas elaborado  
+    + pero no parece funcionar
 
 ```ruby
 require 'redcarpet'
@@ -89,7 +94,7 @@ Los identificadores de cabecera nos permiten establecer un Identificador a las c
 
 # listas
 ```
-Lista numerada (ordenada)
+Lista numerada (ordenada) puede ser con solo un numero per se suele secuenciar por legibilidad
 
 1. Este es el primer elemento
 2. Este es el segundo elemento

@@ -6,13 +6,13 @@ title: git chuleta
 <!-- MarkdownTOC -->
 
 - [secuencia habitual](#secuencia-habitual)
-- [Deshacer unos cambios](#deshacer-unos-cambios)
+- [deshacer unos cambios](#deshacer-unos-cambios)
 - [repositorios remotos](#repositorios-remotos)
 - [configuración](#configuración)
 - [problemas con varios usuarios](#problemas-con-varios-usuarios)
-- [Actualizar la copia local con el repositorio remoto](#actualizar-la-copia-local-con-el-repositorio-remoto)
-- [git](#git)
-- [Enlaces útiles](#enlaces-útiles)
+- [actualizar la copia local con el repositorio remoto](#actualizar-la-copia-local-con-el-repositorio-remoto)
+- [git y subliem text 3](#git-y-subliem-text-3)
+- [enlaces útiles](#enlaces-útiles)
 
 <!-- /MarkdownTOC -->
 
@@ -33,7 +33,7 @@ en git 2.x almacena también los borrados
     + origin es la rama local
     + master suele ser la rama en el repositorio remoto pero puede ser gh-pages para esta documentación
 
-# Deshacer unos cambios
+# deshacer unos cambios
 ```
 git reset --hard 
 Please, commit your changes or stash them before you can merge.
@@ -47,19 +47,30 @@ git remote -v
 ```
 
 # configuración
+- muestra la lista de los parametros de configuración  
+```
 git config --list  
+```  
+
 # problemas con varios usuarios  
+
+```
 git remote rm origin
 
 git remote add origin https://javieriranzo3@github.com/javieriranzo3/plantillajekyll.git
 git config remote.origin.url https://javieriranzo3:pelos678@github.com/javieriranzo3/plantillajekyll.git
+```
 
 esto soluciona el problema que decia 
+
+```
 c:\nube\MEGA\programacion\HtmlCssEstatico\jekyll\plantillajekyll>git push -u origin gh-pages
 remote: Permission to javieriranzo3/plantillajekyll.git denied to pelos6.
-fatal: unable to access 'https://javieriranzo3@github.com/javieriranzo3/plantillajekyll.git/': The requested URL returned error: 403
+fatal: unable to access 'https://javieriranzo3@github.com/javieriranzo3/plantillajekyll.git/':   
+The requested URL returned error: 403
+```
 
-# Actualizar la copia local con el repositorio remoto
+# actualizar la copia local con el repositorio remoto  
 ```
 git pull
 
@@ -77,11 +88,11 @@ Fast-forward
 ```
 
 
-# git
+# git y subliem text 3
 parece que al instalar el package en sublime algo se desconfigura con 
 el paquete de markdownpreview 
 no coje la plantilla. 
 tengo que quitar el package git y volver a abrir sublime ..!!!! 
 
-# Enlaces útiles
+# enlaces útiles
 [Comandos básicos en castellano](http://rogerdudler.github.io/git-guide/index.es.html)
