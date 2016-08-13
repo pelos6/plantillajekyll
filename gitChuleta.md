@@ -2,7 +2,7 @@
 layout: default
 title: git chuleta
 ---
-[inicio](index.html)  / [programacion](programacion.html) / [git](git.html) / git Chuleta 
+[inicio](index.html)  / [programacion](programacion.html) / [git](git.html) / {{ page.title }}
 <!-- MarkdownTOC -->
 
 - [secuencia habitual](#secuencia-habitual)
@@ -16,8 +16,7 @@ title: git chuleta
 
 <!-- /MarkdownTOC -->
 
-# secuencia habitual
-
+# secuencia habitual  
 ```
 git add -A
 git commit -m "mensaje del commit"
@@ -48,8 +47,8 @@ git remote -v
 ```
 
 # configuración
-git config --list
-# problemas con varios usuarios
+git config --list  
+# problemas con varios usuarios  
 git remote rm origin
 
 git remote add origin https://javieriranzo3@github.com/javieriranzo3/plantillajekyll.git

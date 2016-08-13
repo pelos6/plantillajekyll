@@ -1,28 +1,6 @@
 # README #
+Por mantener la tradicción de tener un readme que explica de que va esto.  
+Se puede ver el resultado en [plantillajekyll](https://javieriranzo3.github.io/plantillajekyll/)
+### Proposito de este repositorio ###
+Mantener una plantilla de documentación para proyectos hecho en markdown con la ayuda de jekyll.
 
-por mantener la tradicción de tener un readme que explica de que va esto.
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact

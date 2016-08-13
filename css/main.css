@@ -4,3 +4,31 @@ body {
   font-size: 20px;
 }
 
+a {
+    text-decoration: none;
+   color: #A9A9A9;
+}
+a:hover {
+    text-decoration: underline;
+}
+table, th, td {
+    border-color: black;
+    border: 1px solid #A9A9A9;
+    border-collapse: collapse;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+.flota_derecha
+{
+    float: right;
+}
+.flecha_arriba
+{
+    color: black;
+    font-style: blod;
+    font-size: 35px;
+}

@@ -2,7 +2,7 @@
 layout: default
 title: plantillas
 ---
-[inicio](index.html)
+[inicio](index.html) / {{ page.title }}
 
 | nombre corto   | descripción        |   enlace           |  
 | ---------------| ------------------ | -------------------|  

@@ -7,7 +7,6 @@ title: chuleta markdown
 
 - [parrafos y saltos de linea](#parrafos-y-saltos-de-linea)
 - [texto no interpretado](#texto-no-interpretado)
-- [escapar caracteres especiales con \](#escapar-caracteres-especiales-con-\)
 - [listas de tareas](#listas-de-tareas)
 - [cabeceras](#cabeceras)
 - [simulando un H1  para cabeceras grandes](#simulando-un-h1--para-cabeceras-grandes)
@@ -25,12 +24,12 @@ title: chuleta markdown
 <!-- /MarkdownTOC -->
 
 # parrafos y saltos de linea
-Para crear párrafos se deja una línea en blanco.
+- Para crear párrafos se deja una línea en blanco.
 
-Para crear un salto de línea dentro de un párrafo,   
+- Para crear un salto de línea dentro de un párrafo,   
 ademas del salto es necesario poner dos  
-espacios al final de la última palabra de esa línea
-
+espacios al final de la última palabra de esa línea  
+- para escapar caracteres especiales se usa  \
 
 # texto no interpretado
 
@@ -41,12 +40,11 @@ con acentos invertidos.
 para texto que no se interpreta 
 ```
 
-# escapar caracteres especiales con \
-
-# listas de tareas
-- [x] Finish my changes
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
+# listas de tareas  
+pero no funciona ...  
+- [x] Finish my changes  
+- [ ] Push my commits to GitHub  
+- [ ] Open a pull request  
 
 # cabeceras
 
