@@ -1,6 +1,9 @@
 ---
 layout: default
+title: markdown TOC chuleta
 ---
+[inicio](index.html)  / [programacion](programacion.html) / [markdwon](markdown.html) /  {{ page.title }}  
+
 MarkdownTOC Messages
 ========================
  This [plugin](https://packagecontrol.io/packages/MarkdownTOC) search headings in document and insert TOC(Table Of Contents) to it.
@@ -17,14 +20,17 @@ MarkdownTOC Messages
 
 
 # MarkdownTOC
-## Importante:
+
+## Importante:  
   - Los cambios en la configuración no requieren reiniciar sublime.
   - Va unida la configuración de la propiedad default_bracket del plugin MarkdownTOC en el archivo de configuración ...
-C:\nube\MEGA\portables\sublime\sublime\Data\Packages\MarkdownTOC\MarkdownTOC.sublime-settings
+C:\nube\MEGA\portables\sublime\sublime\Data\Packages\MarkdownTOC\MarkdownTOC.sublime-settings  
+
   ```
 "default_autolink": true,
 "default_bracket": "round",
   ```
+  
 ... con la propiedad parser del plugin markdown preview 
 C:\nube\MEGA\portables\sublime\sublime\Data\Packages\Markdown Preview\MarkdownPreview.sublime-settings
 ```

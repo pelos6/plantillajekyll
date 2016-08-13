@@ -5,6 +5,7 @@ title: markdown
 [inicio](index.html) / [programacion](programacion.html) /  {{ page.title }}
 
 * [chuleta para Markdown](markdownChuleta.html)
+* [chuleta para Markdown TOC](markdownTOCChuleta.html)
 * [MarkdownEditingChuleta](MarkdownCheatsheet.html)
 * [chuleta de MarkdownEditing](MarkdownEditingChuleta.html)
 * [Learn Markdown por bitbucket](https://bitbucket.org/tutorials/markdowndemo)
