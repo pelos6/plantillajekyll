@@ -16,7 +16,7 @@
 autor: javier
 ano: 2016
 title: titulo de la plantilla
-email: javieriranzo3@gmail.com
+email: javieriranoz@hotmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -24,9 +24,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 # intento de solucionar el problema con las rutas relativas ... para el css ..
 # buscar una solución mejor ... en projectos de repositorio ....
-# url: "https://javieriranzo3.github.io/plantillajekyll" # the base hostname & protocol for your site
+url: "https://pelos6.github.io/plantillajekyllmodificada" # the base hostname & protocol for your site
 # para desarrollo en local
-url: ""
+# url: ""
 
 github_username:  javieriranzo3
 
