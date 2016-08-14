@@ -24,7 +24,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 # intento de solucionar el problema con las rutas relativas ... para el css ..
 # buscar una solución mejor ... en projectos de repositorio ....
-url: "https://pelos6.github.io/plantillajekyllmodificada" # the base hostname & protocol for your site
+url: "https://pelos6.github.io/plantillamodificada" # the base hostname & protocol for your site
 # para desarrollo en local
 # url: ""
 
